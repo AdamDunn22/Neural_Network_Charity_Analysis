@@ -26,7 +26,10 @@ Use machine learning and neural networks functions in python to analysis the dat
   * No, we were unable to achieve the target accuracy of 75% as the model achieved an accuracy of 73.05%.
 ![network_results_first](https://user-images.githubusercontent.com/108701073/197908511-c990092c-f315-424e-8d18-cc25bbaa9737.png)
 
-
 * What steps did you take to try and increase model performance?
+ 1. Changing the output layer from sigmoid to tanh
+ 2. Added a third layer with 25 nodes and adjusted the neurons for the first and second layer to 100 and 50 nodes respectively.
+ 3. Changing the number of nodes in the first layer to 100 and keeping the second layer at 30.
 
 ## Summary
+Overall the model Neural Model failed to achieve the 75% accuracy that we were aiming for as the model was close and got 73.05% accuracy. After we tried to optimize the model to get the 75% accuracy and even after trying to optimize the model we were unable to reach the 75%. To try and reach the 75% accuracy score we could use a Random Forest Classifier instead as they are more robust and tend to be more accurate as they have a sufficient amount of estimators,depth, and are faster then neural networks.
